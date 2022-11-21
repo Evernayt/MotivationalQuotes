@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806085671879",
+    "project_id": "deevazzz",
+    "storage_bucket": "deevazzz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806085671879:android:e6a1a2ba1ac49b8e4d77e2",
+        "android_client_info": {
+          "package_name": "gamesligh.azino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806085671879-gbgpleuu0o7v287ju27tr7ur783ibf4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc_c1f1Iyrvo45cpQyMLdmz1pYo-yP4vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806085671879-gbgpleuu0o7v287ju27tr7ur783ibf4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

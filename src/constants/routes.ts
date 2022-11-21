@@ -1,0 +1,3 @@
+const QUOTE_ROUTE = 'QUOTE_ROUTE';
+
+export {QUOTE_ROUTE};
