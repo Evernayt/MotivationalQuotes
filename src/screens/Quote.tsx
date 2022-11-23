@@ -1,13 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useEffect, useState} from 'react';
-import {
-  ImageBackground,
-  Linking,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {ImageBackground, Linking, StyleSheet, Text, View} from 'react-native';
 import {FIREBASE_URL_KEY, QUOTE_INDEX_KEY} from '../constants/storage';
 import remoteConfig from '@react-native-firebase/remote-config';
 import SplashScreen from 'react-native-splash-screen';
@@ -28,8 +21,6 @@ const Quote = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   useEffect(() => {
-    SplashScreen.hide();
-
     AsyncStorage.getItem(FIREBASE_URL_KEY).then(path =>
       remoteConfig()
         .fetchAndActivate()
@@ -59,6 +50,8 @@ const Quote = () => {
         }
       });
     }
+
+    SplashScreen.hide();
   };
 
   const getQuote = () => {
